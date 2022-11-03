@@ -1,0 +1,36 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Launch GenerateAST",
+            "request": "launch",
+            "mainClass": "chattihiss.GenerateAST",
+            "projectName": "in_3b07df5b"
+        },
+        {
+            "type": "java",
+            "name": "Launch ASTPrinter",
+            "request": "launch",
+            "mainClass": "wilson.ASTPrinter",
+            "projectName": "in_3b07df5b"
+        },
+        {
+            "type": "java",
+            "name": "Launch Wilson",
+            "request": "launch",
+            "mainClass": "wilson.Wilson",
+            "projectName": "in_3b07df5b",
+            "args": "c:\\Users\\HP\\OneDrive\\Desktop\\in\\wilson\\wilson\\run",
+        }
+    ]
+}
